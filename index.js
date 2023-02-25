@@ -9,17 +9,11 @@ app.use(express.json( ))
 app.use(cors())
 const db = require("./models")
 
-const postRouter = require('./routes/Posts')
-app.use("/posts",postRouter)
 
-const CommentRouter = require('./routes/Comments')
-app.use("/comment",CommentRouter)
 
 const UserRouter = require('./routes/Users')
 app.use("/auth",UserRouter)
 
-const LikesRouter = require('./routes/Likes')
-app.use("/like",LikesRouter)
 
 
 db.sequelize.sync().then(()=>{

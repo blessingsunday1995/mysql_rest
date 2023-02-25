@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "username": "id19582177_myapi",
+    "password": "@EnergyMeter1995",
+    "database": "id19582177_reacttest11",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "id19582177_myapi",
+    "password": "@EnergyMeter1995",
+    "database": "id19582177_reacttest11",
+    "host": "localhost",
     "dialect": "mysql"
   }
 }
